@@ -1,9 +1,11 @@
-baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
 title = 'Danial Rashidi'
 theme = 'danialweb'
 enableRobotsTXT = true
-
+baseURL = "https://danial-rashidi.github.io/"
+[permalinks]
+  posts = "/blog/:slug/"
+  projects = "/projects/:slug/"
 
 
 

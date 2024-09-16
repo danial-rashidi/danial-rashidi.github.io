@@ -1,0 +1,29 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'Danial Rashidi'
+theme = 'danialweb'
+enableRobotsTXT = true
+
+
+
+
+[sitemap]
+  changeFreq = ''
+  disable = false
+  filename = 'sitemap.xml'
+  priority = -1
+
+
+
+[pagination]
+  disableAliases = false
+  pagerSize = 6
+  path = 'page'
+
+
+
+[[redirects]]
+  from = '/**'
+  status = 404
+  to = '/404.html'
+

@@ -1,0 +1,30 @@
+<!-- Enhanced Pagination with Alignment Fix -->
+<nav class="pagination flex justify-between items-center mt-12 my-8 space-x-4" role="navigation">
+  
+  {{ if .Paginator.HasPrev }}
+    <!-- Newer Posts Button (Left) -->
+    <a href="{{ .Paginator.Prev.URL }}" class="inline-flex items-center px-6 py-3 border-2 border-white text-lg font-medium rounded-lg shadow-sm text-white bg-gray-900 hover:bg-gray-950 transition duration-300 transform hover:scale-105">
+      <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path>
+      </svg>
+      Newer Posts
+    </a>
+  {{ else }}
+    <!-- Placeholder to Maintain Alignment -->
+    <div></div>
+  {{ end }}
+  
+  {{ if .Paginator.HasNext }}
+    <!-- Older Posts Button (Right) -->
+    <a href="{{ .Paginator.Next.URL }}" class="inline-flex items-center px-6 py-3 border-2 border-white text-lg font-medium rounded-lg shadow-sm text-white bg-gray-900 hover:bg-gray-950 transition duration-300 transform hover:scale-105">
+      Older Posts
+      <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+      </svg>
+    </a>
+  {{ else }}
+    <!-- Placeholder to Maintain Alignment -->
+    <div></div>
+  {{ end }}
+  
+</nav>

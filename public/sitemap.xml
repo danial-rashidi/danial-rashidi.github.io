@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/projects/mobilekhorsandi/</loc>
+    <lastmod>2024-09-16T13:08:09+03:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/movie_info_finder/</loc>
+    <lastmod>2024-09-16T13:06:45+03:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2024-09-15T21:46:36+03:30</lastmod>
   </url><url>

@@ -2,11 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Danial Rashidi</title>
-    <link>https://danial-rashidi.github.io/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content in Blog on Danial Rashidi</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://danial-rashidi.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Sep 2024 12:27:05 +0330</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Problem With Centralized Web</title>
+      <link>http://localhost:1313/blog/the-problem-with-centralized-web/</link>
+      <pubDate>Thu, 19 Sep 2024 12:27:05 +0330</pubDate>
+      <guid>http://localhost:1313/blog/the-problem-with-centralized-web/</guid>
+      <description>&lt;p&gt;In the past, the internet was a place for people to express their creativity and thoughts freely. However, today, with the rise of the Centralized Web and the dominance of a few large corporations, what has happened to our privacy, freedom, and innovation?&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-the-centralized-web&#34;&gt;What is the Centralized Web?&lt;/h2&gt;&#xA;&lt;p&gt;The Centralized Web refers to the control of a significant portion of global internet traffic by a few large companies like Google, Facebook, Amazon, and others. These companies dominate the web, and there is little to no competition against them.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
